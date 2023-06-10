@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Klugah's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klugah Daniel | Portfolio</title>
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="32x32" href="assets/K.png">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/K.png">
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/5c309305a8.js" crossorigin="anonymous"></script>
   </head>
@@ -14,28 +16,33 @@
         <nav>
           <img src="assets/K.png" class="logo">
           <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact ">Contact</a></li>
+            <li><a onclick="closemenu()" href="#header"><span>01. </span>Home</a></li>
+            <li><a onclick="closemenu()" href="#about"><span>02. </span>About</a></li>
+            <li><a onclick="closemenu()" href="#portfolio"><span>03. </span>Portfolio</a></li>
+            <li><a onclick="closemenu()" href="#services"><span>04. </span>Services</a></li>
+            <li><a onclick="closemenu()" href="#contact "><span>05. </span>Contact</a></li>
             <i class="fa-sharp fa-regular fa-xmark" onclick="closemenu()"></i>
           </ul>
           <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>Full Stack Developer</p>
-          <h1>Hi, <br> I'm <span>Klugah </span> Daniel Kojo <br> A junior full stack developer </h1>
+          <h2>Hello there &#x1f44b; , I am </h2> 
+          <h1>  Klugah Daniel Kojo <br> <span class="auto-type"> </span> </h1>
+          <br>
+         
         </div>
 
         <br>
+
+        <br>
+        
         <div id="social-icons1">
-          <a href="https://github.com/KlugahKD" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-          <a href="https://www.linkedin.com/in/daniel-klugah-99785818b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/KlugahKD" target="_blank"><i class="fa-brands fa-square-github"></i></a> 
+          <a href="https://www.linkedin.com/in/daniel-klugah-99785818b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
           <a href="https://twitter.com/KLUGAH2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
-   </div>
+   </div> 
 
    <!-------------------About-------------------------->
    <div id="about">
@@ -46,7 +53,7 @@
         </div>
         <div class="about-col-2">
           <h1 class="sub-title">About Me</h1>
-          <p>I am an Effective Student committed to learning, developing skills in Software Engineering and team contribution. Self-directed and energetic with superior performance in both autonomous or collaborative environments working independently and collaborating with others on group projects.</p>
+          <p>I am a Student committed to learning, developing skills in Software Engineering and team contribution. Self-directed and energetic with superior performance in both autonomous or collaborative environments working independently and collaborating with others on group projects.</p>
 
            <br>
             <div class="tab-titles">
@@ -78,7 +85,7 @@
             <div class="tab-contents" id="education">
               <ul>
                 <li><span>2019-2023</span> <br>University Of Ghana, Legon <br> Bsc Computer Science</li>
-                
+                <li><span>2017-2019</span> <br>Mfantsipim School, Cape Coast <br> General Science student</li>
               </ul>
             </div>
         </div>
@@ -98,30 +105,30 @@
           <img src="assets/project-1.png" alt="project">
           <div class="layer">
           <h3>Church Website</h3>
-          <p>This website is for a church to connect to the people of the church</p>
-          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+          <p>This website was developed for a church to help with its services </p>
+          <a href="https://github.com/KlugahKD/church-website/tree/main"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
         </div>
         </div>
 
         <div class="work">
           <img src="assets/project-2.png" alt="project">
           <div class="layer">
-          <h3>Church Website</h3>
-          <p>This website is for a church to connect to the people of the church</p>
-          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+          <h3>Microfinance Website</h3>
+          <p>This website was developed and hosted for a microfinance company called synergy funds</p>
+          <a href="http://synergyfunds.org"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
         </div>
         </div>
       
         <div class="work">
           <img src="assets/project-3.png" alt="project">
           <div class="layer">
-          <h3>Church Website</h3>
-          <p>This website is for a church to connect to the people of the church</p>
-          <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
+          <h3>Idine Mobile App</h3>
+          <p>I developed this app as part of my 100 days of code challenge</p>
+          <a href="https://github.com/KlugahKD/Idine-Menu"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i> </a>
         </div>
         </div>
       </div>
-      <a href="#" class="btn btn3">See More</a>
+      <a href="https://github.com/KlugahKD" class="btn btn3">See More</a>
     </div>
 
    </div>
@@ -135,21 +142,21 @@
         <div>
           <i class="fa-brands fa-app-store"></i>
           <h2>Web Apps</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis nostrum quia? Aut inventore dolorem maiores sed, ducimus hic sunt itaque animi perspiciatis error suscipit. Nemo odit molestias magni maxime.</p>
+          <p>I offer professional web application development services, specializing in custom solutions tailored to meet your unique requirements. From front-end design to back-end development, database integration, and API integration, I ensure seamless functionality, security, and a smooth user experience. With a focus on performance optimization and continuous communication, I deliver high-quality web applications that drive your business forward.</p>
           <a href="#">Learn More</a>
         </div>
 
         <div>
           <i class="fa-solid fa-satellite-dish"></i>
           <h2>WebSites</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis nostrum quia? Aut inventore dolorem maiores sed, ducimus hic sunt itaque animi perspiciatis error suscipit. Nemo odit molestias magni maxime.</p>
+          <p>With my expertise in front-end design, responsive development, and user-centric approach, I create visually stunning and intuitive websites that captivate users. Whether you need a personal portfolio, a corporate website, or an e-commerce platform, I'm here to turn your vision into reality. Let's collaborate and bring your online presence to life!</p>
           <a href="#">Learn More</a>
         </div>
 
         <div>
           <i class="fa-sharp fa-solid fa-blog"></i>
           <h2>Blog Post</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reiciendis nostrum quia? Aut inventore dolorem maiores sed, ducimus hic sunt itaque animi perspiciatis error suscipit. Nemo odit molestias magni maxime.</p>
+          <p> I offer expert insights and tips on leveraging this essential discipline to elevate your online presence. From visually captivating interfaces to seamless user experiences, learn how my front-end development services can help you stand out in the digital landscape and leave a lasting impact on your audience. Don't miss this opportunity to unlock the true potential of your blog post and drive meaningful results.</p>
           <a href="#">Learn More</a>
         </div>
       </div>
@@ -164,7 +171,7 @@
         <div class="contact-left">
           <h2 class="sub-title">Contact Me</h2>
           <br>
-          <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> contact@klugahdaniel1@gmail.com</p>
+          <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> klugahdaniel1@gmail.com</p>
           <p> <i class="fa-sharp fa-solid fa-phone-volume"></i> +233274810934</p>
 
           <br>
@@ -194,11 +201,10 @@
       </div>
     </div>
     <div class="copyright">
-      <p>Copyright <i class="fa-sharp fa-solid fa-copyright"></i> Klugah.</p>
+      <p>Copyright <i class="fa-sharp fa-solid fa-copyright"></i> <span>Klugah.</span></p>
     </div>
-  </div>
+  </div> 
 
-  
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxFfC5FIKMJHfgmftIhIurAwUyhiraILRpHblOczjEzM21t2IUOataS7177uLDw6WiPcA/exec'
   const form = document.forms['submit-to-google-sheet']
@@ -248,6 +254,14 @@
 
     </script>
    
-
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed(".auto-type", {
+      strings:  ["A junior frontend developer",],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop:  true
+    })
+   </script>
   </body>
 </html>
